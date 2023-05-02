@@ -60,3 +60,4 @@ uploadButton.addEventListener("click", () => {
       Bucket: "YOUR_BUCKET_NAME",
       Key: fileName,
       Body: file,
+      ContentType: fileType,
