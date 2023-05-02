@@ -77,3 +77,4 @@ uploadButton.addEventListener("click", () => {
 
   // reset file input and preview container
   fileInput.value = "";
+  previewContainer.innerHTML = "";
