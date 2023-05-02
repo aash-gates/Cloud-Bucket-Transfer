@@ -24,3 +24,4 @@ fileInput.addEventListener("change", () => {
 
       const cancelButton = document.createElement("button");
       cancelButton.classList.add("cancel-button");
+      cancelButton.textContent = "Cancel";
