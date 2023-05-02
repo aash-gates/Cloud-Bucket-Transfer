@@ -54,3 +54,4 @@ uploadButton.addEventListener("click", () => {
       region: "YOUR_BUCKET_REGION"
     });
 
+    const s3 = new AWS.S3();
