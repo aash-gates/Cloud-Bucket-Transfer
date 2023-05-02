@@ -67,3 +67,4 @@ uploadButton.addEventListener("click", () => {
     };
 
     s3.upload(params, (err, data) => {
+      if (err) {
