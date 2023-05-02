@@ -22,3 +22,4 @@ fileInput.addEventListener("change", () => {
       imgDescription.classList.add("image-description");
       imgDescription.textContent = file.name;
 
+      const cancelButton = document.createElement("button");
