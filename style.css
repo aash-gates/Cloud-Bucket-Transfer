@@ -22,3 +22,4 @@ body {
 	
 	#previewContainer {
 	display: flex;
+	flex-wrap: wrap;
