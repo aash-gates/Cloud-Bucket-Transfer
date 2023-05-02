@@ -40,3 +40,4 @@ fileInput.addEventListener("change", () => {
 });
 
 uploadButton.addEventListener("click", () => {
+  const files = fileInput.files;
