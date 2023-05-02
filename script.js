@@ -26,3 +26,4 @@ fileInput.addEventListener("change", () => {
       cancelButton.classList.add("cancel-button");
       cancelButton.textContent = "Cancel";
       cancelButton.addEventListener("click", () => {
+        imageContainer.remove();
