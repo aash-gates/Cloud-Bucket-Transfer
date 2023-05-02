@@ -57,3 +57,4 @@ uploadButton.addEventListener("click", () => {
     const s3 = new AWS.S3();
 
     const params = {
+      Bucket: "YOUR_BUCKET_NAME",
