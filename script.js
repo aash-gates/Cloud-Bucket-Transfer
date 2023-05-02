@@ -53,3 +53,4 @@ uploadButton.addEventListener("click", () => {
       secretAccessKey: "YOUR_SECRET_ACCESS_KEY",
       region: "YOUR_BUCKET_REGION"
     });
+
