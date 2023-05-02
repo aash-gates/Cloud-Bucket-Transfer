@@ -5,3 +5,4 @@ const uploadButton = document.querySelector("#uploadButton");
 fileInput.addEventListener("change", () => {
   const files = fileInput.files;
 
+  for (let i = 0; i < files.length; i++) {
