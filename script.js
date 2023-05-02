@@ -45,3 +45,4 @@ uploadButton.addEventListener("click", () => {
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
     const fileName = file.name;
+    const fileType = file.type;
