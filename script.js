@@ -28,3 +28,4 @@ fileInput.addEventListener("change", () => {
       cancelButton.addEventListener("click", () => {
         imageContainer.remove();
       });
+
