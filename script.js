@@ -49,3 +49,4 @@ uploadButton.addEventListener("click", () => {
     const fileDescription = document.querySelector(".description").value;
 
     AWS.config.update({
+      accessKeyId: "YOUR_ACCESS_KEY_ID",
