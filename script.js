@@ -35,3 +35,4 @@ fileInput.addEventListener("change", () => {
       previewContainer.appendChild(imageContainer);
     };
 
+    reader.readAsDataURL(file);
