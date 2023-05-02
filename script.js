@@ -9,3 +9,4 @@ fileInput.addEventListener("change", () => {
     const file = files[i];
     const reader = new FileReader();
 
+    reader.onload = () => {
