@@ -48,3 +48,4 @@ uploadButton.addEventListener("click", () => {
     const fileType = file.type;
     const fileDescription = document.querySelector(".description").value;
 
+    AWS.config.update({
