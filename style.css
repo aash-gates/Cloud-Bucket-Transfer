@@ -54,3 +54,4 @@ body {
 	}
 	
 	.file-upload label {
+	display: inline-block;
