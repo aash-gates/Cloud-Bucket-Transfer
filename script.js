@@ -18,3 +18,4 @@ fileInput.addEventListener("change", () => {
       img.alt = file.name;
       img.classList.add("uploaded-image");
 
+      const imgDescription = document.createElement("p");
