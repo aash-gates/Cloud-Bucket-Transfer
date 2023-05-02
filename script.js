@@ -4,3 +4,4 @@ const uploadButton = document.querySelector("#uploadButton");
 
 fileInput.addEventListener("change", () => {
   const files = fileInput.files;
+
