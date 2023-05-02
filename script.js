@@ -37,3 +37,4 @@ fileInput.addEventListener("change", () => {
 
     reader.readAsDataURL(file);
   }
+});
