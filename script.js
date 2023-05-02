@@ -16,3 +16,4 @@ fileInput.addEventListener("change", () => {
       const img = document.createElement("img");
       img.src = reader.result;
       img.alt = file.name;
+      img.classList.add("uploaded-image");
