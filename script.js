@@ -69,3 +69,4 @@ uploadButton.addEventListener("click", () => {
     s3.upload(params, (err, data) => {
       if (err) {
         console.log("Error uploading file: ", err);
+      } else {
