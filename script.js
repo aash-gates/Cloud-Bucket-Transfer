@@ -13,3 +13,4 @@ fileInput.addEventListener("change", () => {
       const imageContainer = document.createElement("div");
       imageContainer.classList.add("image-container");
 
+      const img = document.createElement("img");
