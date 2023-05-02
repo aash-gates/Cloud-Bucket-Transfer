@@ -70,3 +70,4 @@ uploadButton.addEventListener("click", () => {
       if (err) {
         console.log("Error uploading file: ", err);
       } else {
+        console.log("File uploaded successfully: ", data.Location);
