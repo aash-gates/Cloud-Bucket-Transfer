@@ -21,3 +21,4 @@ body {
 	}
 	
 	#previewContainer {
+	display: flex;
