@@ -14,3 +14,4 @@ fileInput.addEventListener("change", () => {
       imageContainer.classList.add("image-container");
 
       const img = document.createElement("img");
+      img.src = reader.result;
