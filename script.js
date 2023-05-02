@@ -12,3 +12,4 @@ fileInput.addEventListener("change", () => {
     reader.onload = () => {
       const imageContainer = document.createElement("div");
       imageContainer.classList.add("image-container");
+
