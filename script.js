@@ -19,3 +19,4 @@ fileInput.addEventListener("change", () => {
       img.classList.add("uploaded-image");
 
       const imgDescription = document.createElement("p");
+      imgDescription.classList.add("image-description");
