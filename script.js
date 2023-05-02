@@ -23,3 +23,4 @@ fileInput.addEventListener("change", () => {
       imgDescription.textContent = file.name;
 
       const cancelButton = document.createElement("button");
+      cancelButton.classList.add("cancel-button");
