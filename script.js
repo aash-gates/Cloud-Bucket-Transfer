@@ -47,3 +47,4 @@ uploadButton.addEventListener("click", () => {
     const fileName = file.name;
     const fileType = file.type;
     const fileDescription = document.querySelector(".description").value;
+
