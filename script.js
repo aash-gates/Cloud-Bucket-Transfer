@@ -21,3 +21,4 @@ fileInput.addEventListener("change", () => {
       const imgDescription = document.createElement("p");
       imgDescription.classList.add("image-description");
       imgDescription.textContent = file.name;
+
