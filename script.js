@@ -39,3 +39,4 @@ fileInput.addEventListener("change", () => {
   }
 });
 
+uploadButton.addEventListener("click", () => {
