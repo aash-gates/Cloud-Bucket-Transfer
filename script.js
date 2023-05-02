@@ -7,3 +7,4 @@ fileInput.addEventListener("change", () => {
 
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
+    const reader = new FileReader();
