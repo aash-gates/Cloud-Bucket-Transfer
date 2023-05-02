@@ -30,3 +30,4 @@ fileInput.addEventListener("change", () => {
       });
 
       imageContainer.appendChild(img);
+      imageContainer.appendChild(imgDescription);
