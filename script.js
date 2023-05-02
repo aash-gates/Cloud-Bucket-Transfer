@@ -31,4 +31,5 @@ fileInput.addEventListener("change", () => {
 
       imageContainer.appendChild(img);
       imageContainer.appendChild(imgDescription);
+      imageContainer.appendChild(cancelButton);
       previewContainer.appendChild(imageContainer);
