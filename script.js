@@ -62,3 +62,4 @@ uploadButton.addEventListener("click", () => {
       Body: file,
       ContentType: fileType,
       Metadata: {
+        description: fileDescription
