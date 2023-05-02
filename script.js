@@ -56,3 +56,4 @@ uploadButton.addEventListener("click", () => {
 
     const s3 = new AWS.S3();
 
+    const params = {
