@@ -29,3 +29,4 @@ fileInput.addEventListener("change", () => {
         imageContainer.remove();
       });
 
+      imageContainer.appendChild(img);
