@@ -17,3 +17,4 @@ fileInput.addEventListener("change", () => {
       img.src = reader.result;
       img.alt = file.name;
       img.classList.add("uploaded-image");
+
