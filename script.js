@@ -58,3 +58,4 @@ uploadButton.addEventListener("click", () => {
 
     const params = {
       Bucket: "YOUR_BUCKET_NAME",
+      Key: fileName,
